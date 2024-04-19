@@ -1,52 +1,17 @@
-# Litter Robot 4 Homebridge Plugin
+# Litter Robot 3 Homebridge Plugin
+This will be my attempt to get this plugin to work with my LR3, since none of the LR3 plugins have been updated in years!
 
 ## Features
-- Supports Multiple Litter Robot 4 Devices 🤖🤖🤖🤖🤖🤖🤖
-- Toggle The Globle Light 💡
-- Cat Detect Sensor 📸
-- Waste Drawer Level Sensor 💰
-
 
 ## Supported Robot Versions
-- Litter Robot 4
+- Litter Robot 3 (eventually)
 
 ## Installation
 
-#### For Homebridge Web UI Users
-Go to plugin page, search for `@rylee-s/Homebridge-Litter-Robot-4` and install it.
-
-#### For Homebridge Command Line Users
-
-Run the following command in the terminal:
-```
-npm install @rylee-s/Homebridge-Litter-Robot-4
-```
-
-
 ## Configuration
-
-Configuration should be very simple!
-
-### Homebridge Web UI 
-Just enter the Username and Password you use for your Whisker App
-
-### Homebridge Command Line Users
-
-```json
-{
-            "platform": "LitterRobot4",
-            "email": "whisker.app@email.com",
-            "password": "WhiskerAppPassword"
-}
-```
 
 ## Limitations
 
 ## FAQ
 
-
 ## Contributing
-PRs and issues are welcome.
-
-# 
-Thanks for taking a look at my project! If it helps you, please give it a star ⭐️
