@@ -74,7 +74,7 @@ export class LitterRobotPlatform implements DynamicPlatformPlugin {
   async discoverDevices(account: Whisker) {
     const data = JSON.stringify({
       query: `{
-        query: getLitterRobot4ByUser(userId: "${account.accountId}") {
+        query: getLitterRobot4ByUser(userId: "${account.accountId}") { // TODO: find LR3 query
             serial
             name
             isNightLightLEDOn
@@ -99,7 +99,7 @@ export class LitterRobotPlatform implements DynamicPlatformPlugin {
   pollForUpdates(account: Whisker, interval: number) {
     const command = JSON.stringify({
       query: `{
-        query: getLitterRobot4ByUser(userId: "${account.accountId}") {
+        query: getLitterRobot4ByUser(userId: "${account.accountId}") { // TODO: find LR3 query
             serial
             name
             isNightLightLEDOn
