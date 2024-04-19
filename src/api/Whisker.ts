@@ -19,7 +19,7 @@ export default class Whisker {
 
   private readonly AWS_LOGIN_URL = 'https://42nk7qrhdg.execute-api.us-east-1.amazonaws.com/prod/login';
   private readonly TOKEN_REFRESH_URL = 'https://securetoken.googleapis.com/v1/token?key=AIzaSyCv84jel7JkCQlsgqr_slXf3f3x-cMG15Q';
-  private readonly API_URL = 'https://lr4.iothings.site/graphql';
+  private readonly API_URL = 'https://v2.api.whisker.iothings.site';
 
   constructor(
       readonly config: PlatformConfig,
